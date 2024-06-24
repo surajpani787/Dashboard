@@ -1,0 +1,67 @@
+.container {
+    background-color: rgb(77, 73, 73);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.addbutton {
+    padding: 10px;
+    background-color: #54924e;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding: 10px;
+}
+
+.users {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.userimg {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.btn {
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 2px;
+    font-weight: bold;
+
+}
+
+.view {
+    background-color: #54924e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+form .delete {
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    padding: 5px;
+}
